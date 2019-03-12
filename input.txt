@@ -1,0 +1,7 @@
+type GoFantasticClass struct{
+	FantasticId              string     `json:"fantasticId" bson:"fantasticId" form:"fantasticId"`
+	Items                    []Item     `json:"items" bson:"items" form:"items"`
+	IsBest                   int        `json:"isBest" bson:"isBest" form:"isBest"`
+	Author                   string     `json:"author" bson:"author" form:"author"`
+	Whatever                 bool       `json:"whatever" bson:"whatever" form:"whatever"`
+}
